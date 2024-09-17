@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: italic;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/pngtree-animated-mountains-landscape-wallpaper-4k-and-1080p-2px-image_2565761.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+   
+    font-weight: 400;
+    font-size: 25px;
+    color: #7CF5FF;
+}
+  
+.resume{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    
+}
+
+
+.resume h2{
+    color: #7cf4ffc6;
+}
+
+.resume p{
+    display: inline-block;
+    width: 510px;
+    text-align: center;
+}
+
+
+.foto_curriculo{
+    height: 100px;
+    width: 100px;
+    margin-top: 100px;
+    border-radius: 50px;
+}
+
+.habilidades{
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    align-items: flex-start;
+}
+
+.habilidades p{
+    width: 400px;
+    padding: 20px;
+    text-align: start;
+}
+
+.contato{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.contato h2{
+    color: #7cf4ffc6;
+}
+
+.contato h3{
+    color: #399da2be;
+}
+
+.contato p{
+    margin-bottom: 50px;
+}
+
+.contato button{
+   background-color: #00CCDD;
+   height: 6vh;
+   width: 10vw;
+   border-radius: 5px;
+   border: none;
+   transition: 0.7s;
+}
+
+.contato button:hover{
+    background-color: #096a72;
+    transition: 0.3s;
+}
+
+.contato a{
+    color: white;
+}
+ a:link{
+    text-decoration: none;
+}
+
+.footer{
+    display: flex;
+    height: 20vb;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: #00CCDD;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+
+
+
+.footer a{
+    padding: 0px 0px 0px 20px;
+}
+
